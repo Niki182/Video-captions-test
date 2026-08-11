@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #111827;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+button {
+    background-color: #005abb;
+    display: inline-block;
+    padding: 8px 12px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #005abb;
+    transform: translateY(-1.9px);
+}
